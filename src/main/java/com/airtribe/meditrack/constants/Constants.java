@@ -6,6 +6,6 @@ public class Constants {
     public static final String APP_NAME = "MediTrack";
 
 
-    public static final String DOCTOR_FILE = "doctors.csv";
-    public static final String PATIENT_FILE = "patients.csv";
+//    public static final String DOCTOR_FILE = "doctors.csv";
+//    public static final String PATIENT_FILE = "patients.csv";
 }
