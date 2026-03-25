@@ -12,6 +12,8 @@ import com.airtribe.meditrack.strategy.NormalBillingStrategy;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
+import static com.airtribe.meditrack.constants.Constants.APP_NAME;
+
 public class Main {
 
     private static DoctorService doctorService = new DoctorService();
@@ -26,7 +28,7 @@ public class Main {
 
         do {
 
-            System.out.println("\n===== MediTrack Menu =====");
+            System.out.println("\n<================ "+ APP_NAME +" Menu ===============>");
             System.out.println("1. Add Doctor");
             System.out.println("2. Add Patient");
             System.out.println("3. Create Appointment");
